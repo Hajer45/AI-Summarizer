@@ -1,8 +1,57 @@
-# React + Vite
+AISummarizer:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AI-Summarizer Application
 
-Currently, two official plugins are available:
+This is an AI-powered summarizer application built using **React**, **Vite**, **Tailwind CSS**, and **RapidAPI**. The app takes long articles and generates clear, concise summaries, making reading more efficient.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Summarizes articles using AI
+- User-friendly interface
+- Built with modern technologies: React, Vite, and Tailwind CSS
+- Integrates with **RapidAPI** for summarization services
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces
+- **Vite**: Next-generation front-end build tool
+- **Tailwind CSS**: Utility-first CSS framework
+- **RapidAPI**: For accessing the article summarization API
+
+## Setup and Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/Hajer45/AI-Summarizer
+    cd AI-Summarizer
+    ```
+
+2. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Add your RapidAPI Key**:
+
+   - Create a `.env` file in the project root.
+   - Add your RapidAPI key in the `.env` file as follows:
+
+     ```bash
+     VITE_RAPID_API_KEY=your_rapid_api_key_here
+     ```
+
+4. **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+
+## Usage
+
+1. Enter the URL of an article you want to summarize.
+2. Click the **Summarize** button to generate the summary.
+3. The application will display the summarized content below the input field.
+
