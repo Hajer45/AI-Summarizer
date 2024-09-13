@@ -47,11 +47,17 @@ This is an AI-powered summarizer application built using **React**, **Vite**, **
     ```bash
     npm run dev
     ```
+## Deployment
 
+This project has been deployed using **Netlify**. You can access the live version of the AI Summarizer application via the following link:
+
+[AI Summarizer Live Demo](https://aisummarizerhajertalbi.netlify.app/)
 
 ## Usage
 
 1. Enter the URL of an article you want to summarize.
 2. Click the **Summarize** button to generate the summary.
 3. The application will display the summarized content below the input field.
+
+
 
